@@ -1,0 +1,17 @@
+{
+  "name": "fyodortodotgbot",
+  "version": "1.0.0",
+  "main": "./src/index.js",
+  "repository": "https://github.com/Ga11et/FyodorTodoTgBot.git",
+  "author": "Fyodor <sivkov1998@yandex.ru>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon ./src/index.js",
+    "start": "node ./src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "node-telegram-bot-api": "^0.60.0",
+    "nodemon": "^2.0.20"
+  }
+}
